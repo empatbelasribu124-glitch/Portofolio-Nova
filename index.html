@@ -63,7 +63,7 @@ tailwind.config = { theme: { extend: {
     <div class="order-2 md:order-1">
       <p class="inline-block bg-matcha-soft text-matcha-deep font-semibold rounded-full px-4 py-1 text-sm mb-4">Hi, I’m Nova 🍵</p>
       <h1 class="text-4xl md:text-6xl font-bold leading-tight">Nova Sahwalia</h1>
-      <p class="mt-3 text-xl font-bold text-lilac-deep min-h-[2rem]">I’m a <span id="role">Business Development Enthusiast</span><span class="animate-pulse">|</span></p>
+      <p class="mt-3 text-xl font-bold text-lilac-deep min-h-[2rem]">I’m a <span id="role">Business Development & Digital Marketing Enthusiast</span><span class="animate-pulse">|</span></p>
       <p class="mt-5 text-lg leading-relaxed max-w-xl">Digital Communication Student @ IPB University (GPA: 3.56) | Business Development, Digital Data &amp; Consumer Behavior Analyst, Corporate Communication &amp; Event Strategist.</p>
       <div class="mt-8 flex flex-wrap gap-3">
         <a href="mailto:novasahwalia11@gmail.com" class="rounded-full bg-pink-deep text-white font-bold px-7 py-3 shadow-soft hover:-translate-y-0.5 transition">Email Me</a>
@@ -88,9 +88,9 @@ tailwind.config = { theme: { extend: {
 <!-- STATS -->
 <section class="pb-6">
   <div class="max-w-6xl mx-auto px-5 grid grid-cols-2 md:grid-cols-4 gap-4">
-    <div class="bg-pink-soft rounded-3xl p-5 text-center shadow-soft"><div class="text-3xl font-bold"><span data-count="2000" data-suffix="+">0</span></div><p class="text-sm mt-1">Bogor Book Fair visitors</p></div>
+    <div class="bg-pink-soft rounded-3xl p-5 text-center shadow-soft"><div class="text-3xl font-bold"><span data-count="12000" data-suffix="+">0</span></div><p class="text-sm mt-1">Bogor Book Fair visitors</p></div>
     <div class="bg-lilac-soft rounded-3xl p-5 text-center shadow-soft"><div class="text-3xl font-bold"><span data-count="30" data-suffix="+">0</span></div><p class="text-sm mt-1">committee staff led</p></div>
-    <div class="bg-matcha-soft rounded-3xl p-5 text-center shadow-soft"><div class="text-3xl font-bold"><span data-count="9000000" data-prefix="Rp">0</span></div><p class="text-sm mt-1">Hack Up cash surplus</p></div>
+    <div class="bg-matcha-soft rounded-3xl p-5 text-center shadow-soft"><div class="text-3xl font-bold"><span data-count="12000000" data-prefix="Rp">0</span></div><p class="text-sm mt-1">Hack Up cash surplus</p></div>
     <div class="bg-pink-soft rounded-3xl p-5 text-center shadow-soft"><div class="text-3xl font-bold"><span data-count="10" data-suffix="+">0</span></div><p class="text-sm mt-1">B2B partnership MoUs</p></div>
   </div>
 </section>
@@ -125,10 +125,10 @@ tailwind.config = { theme: { extend: {
         <span class="text-sm font-semibold bg-white rounded-full px-3 py-1">Apr 2026 – Jul 2026</span>
       </div>
       <ul class="mt-4 space-y-2 leading-relaxed list-disc pl-5 marker:text-pink-deep">
-        <li>Produced 15–20 copywriting captions per week.</li>
+        <li>Produced 5–7 copywriting captions per week.</li>
         <li>Coordinated with 1–2 graphic designers.</li>
         <li>Audited 3–5 competitor accounts per month.</li>
-        <li>Archived 150+ caption drafts.</li>
+        <li>Archived 30+ caption drafts.</li>
       </ul>
     </article>
   </div>
@@ -197,7 +197,7 @@ tailwind.config = { theme: { extend: {
     <div class="grid md:grid-cols-3 gap-6">
       <div class="bg-white rounded-3xl p-6 shadow-soft"><h3 class="font-bold mb-3">Expertise</h3><ul id="skillList" class="flex flex-wrap gap-2"></ul></div>
       <div class="bg-white rounded-3xl p-6 shadow-soft"><h3 class="font-bold mb-3">Software</h3><ul id="toolList" class="flex flex-wrap gap-2"></ul></div>
-      <div class="bg-white rounded-3xl p-6 shadow-soft"><h3 class="font-bold mb-3">Languages</h3><ul class="space-y-2"><li class="flex justify-between bg-cream rounded-2xl px-4 py-2"><span>English</span><span class="font-semibold text-lilac-deep">Intermediate</span></li><li class="flex justify-between bg-cream rounded-2xl px-4 py-2"><span>German</span><span class="font-semibold text-lilac-deep">Beginner</span></li></ul></div>
+      <div class="bg-white rounded-3xl p-6 shadow-soft"><h3 class="font-bold mb-3">Languages</h3><ul class="space-y-2"><li class="flex justify-between bg-cream rounded-2xl px-4 py-2"><span>English</span><span class="font-semibold text-lilac-deep">Begginer</span></li><li class="flex justify-between bg-cream rounded-2xl px-4 py-2"><span>German</span><span class="font-semibold text-lilac-deep">Beginner</span></li></ul></div>
     </div>
   </div>
 </section>
@@ -234,7 +234,7 @@ const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
 // File format : ['files/file-name.pdf', 'File title', 'PDF'],  (type: 'PDF' or 'Excel')
 // Remove the // before an example line, then change the file name.
 const gallery = [
-  // ['images/bogor-book-fair.jpg', 'Bogor Book Fair: 3-day event, 2,000+ visitors'],
+  // ['images/bogor-book-fair.jpg', 'Bogor Book Fair: 3-day event, 10,000+ visitors'],
 ];
 const files = [
   ['hack-up-report.xlsx', 'Hack Up Report', 'Excel'],
@@ -267,7 +267,7 @@ const tones = ['bg-pink-soft','bg-lilac-soft','bg-matcha-soft'];
 const fill = (id, arr) => $(id).innerHTML = arr.map((t,i) => chip(t, tones[i % 3])).join('');
 fill('#courses', ['Big Data','Digital Communication Statistics','Issue and Crisis Management','Digital Law and Ethics','Digital Literacy','Digital Consumer Behavior']);
 fill('#skillList', ['Business Development & Partnership','Market Research & Digital Consumer Analysis','Corporate Communication & Crisis Management','Event & Project Coordination']);
-fill('#toolList', ['IBM SPSS Statistics','Microsoft Excel','Google Sheets','Google Forms','Canva','OBS Studio','CapCut']);
+fill('#toolList', ['IBM SPSS Statistics','Microsoft Excel','Google Sheets','Google Forms','Canva','Microsoft Words','CapCut']);
 
 // Organisasi (accordion)
 const orgs = [
@@ -277,7 +277,7 @@ const orgs = [
  ['Steering Committee','Workshop Content Creator BEM KM IPB','Jun – Oct 2026','Drafted the TOR, directed 10+ executing staff, and managed operational risk.'],
  ['Steering Committee','Lomba Content Creator BEM KM IPB','Mar – May 2026','Drafted the competition rules and judging mechanism, and supervised the qualifying rounds through the final.'],
  ['Project Leader','Event “Bogor Book Fair” BEM KM IPB','Mar 2026','Led a 3-day event with 2,000+ visitors and 30+ cross-division committee staff, overseeing crowd control and budget allocation.'],
- ['Treasurer & Sponsorship SC','Event “Hack Up”','Aug – Nov 2025','Funded 100% of operational needs through B2B sponsorship, achieved a cash surplus of Rp9,000,000, and prepared the financial accountability report.'],
+ ['Treasurer & Sponsorship SC','Event “Hack Up”','Aug – Nov 2025','Funded 100% of operational needs through B2B sponsorship, achieved a cash surplus of Rp12,000,000, and prepared the financial accountability report.'],
  ['Secretary & Treasurer, Sponsorship Division','Portal 7','Aug – Oct 2025','Drafted B2B proposals and documented 15+ administrative and legal files.'],
  ['Secretary & Treasurer, Sponsorship Division','Kenduriin Jambi 16th Cultural Festival','Jan – May 2025','Prepared 20+ partnership documents and managed financial administration for a regional festival.'],
  ['Event Treasurer','The Fearless Leader','Sep – Nov 2024','Prepared the budget plan (RAB) and audited daily transactions to prevent over-budgeting.']
@@ -336,7 +336,7 @@ $('#toggleAll').addEventListener('click', (e) => {
 });
 
 // Teks berganti di hero
-const roles = ['Business Development Enthusiast', 'Digital Data & Consumer Behavior Analyst', 'Corporate Communication & Event Strategist'];
+const roles = ['Business Development Enthusiast', 'Partnership', 'Digital Marketing', 'Consumer Behavior Analyst', 'Corporate Communication & Event Strategist'];
 if (!calm) {
   let r = 0, c = roles[0].length, del = true;
   const el = $('#role');
@@ -405,9 +405,9 @@ $('#marq').innerHTML = wins.map(winItem).join('') + `<span class="contents" aria
 // Alur kerja (tab)
 const flow = [
  ['Budget (RAB)', 'Event Treasurer · The Fearless Leader (Sep – Nov 2024)', ['Prepared the RAB as the event budget baseline.', 'Audited daily transactions to prevent over-budgeting.']],
- ['Proposal B2B', 'Portal 7 (Aug – Oct 2025) and Kenduriin (Jan – May 2025)', ['Drafted B2B proposals.', 'Documented 15+ administrative and legal files (Portal 7).', 'Prepared 20+ partnership documents (Kenduriin).']],
+ ['Proposal B2B', 'Portal 7 (Aug – Oct 2025) and Kenduriin (Jan – May 2025)', ['Drafted B2B proposals.', 'Documented 10+ administrative and legal files (Portal 7).', 'Prepared 10+ partnership documents (Kenduriin).']],
  ['MoUs & partners', 'IPB Outsco (Jul 2026 – Present)', ['Drafted 10+ B2B partnership MoUs.', 'Coordinated with 5+ strategic partners.', 'Managed garment vendors for merchandise.']],
- ['Reporting & results', 'Event “Hack Up” (Aug – Nov 2025)', ['Funded 100% of operational needs through B2B sponsors.', 'Cash surplus of Rp9,000,000.', 'Prepared the financial accountability report.']]
+ ['Reporting & results', 'Event “Hack Up” (Aug – Nov 2025)', ['Funded 100% of operational needs through B2B sponsors.', 'Cash surplus of Rp12,000,000.', 'Prepared the financial accountability report.']]
 ];
 const fTabs = $('#flowTabs');
 fTabs.innerHTML = flow.map((f, i) => `<button role="tab" data-i="${i}" class="flex items-center gap-2 rounded-2xl px-3 py-3 text-sm font-bold shadow-soft transition"><span class="w-6 h-6 shrink-0 rounded-full bg-white/80 text-pink-deep flex items-center justify-center text-xs">${i + 1}</span>${f[0]}</button>`).join('');
